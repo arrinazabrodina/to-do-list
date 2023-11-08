@@ -1,0 +1,51 @@
+/* TodoList.css */
+
+.todo-list {
+  font-family: "San Francisco", Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.task {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s;
+  min-height: 100px;
+}
+
+.task:hover {
+  background-color: #f3f3f3;
+  transform: scale(1.02);
+}
+
+.task-header {
+  width: 60%;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.task-details {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.task-status-complete {
+  color: #4caf50;
+}
+
+.task-status-incomplete {
+  color: #ff5722;
+}
